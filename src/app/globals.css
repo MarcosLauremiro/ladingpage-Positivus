@@ -25,8 +25,73 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  @media (width >= 64rem /* 1024px */) {
+    font-size: 2.25rem;
+  }
+}
+
+.title-small {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.marked-green {
+  color: #0a0a0a;
+  background-color: #b9ff66;
+  border-radius: 6px;
+  width: fit-content;
+  padding-inline: 8px;
+}
+
+.marked-withe {
+  color: #0a0a0a;
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: fit-content;
+  padding-inline: 8px;
+}
+
+.marked-black {
+  color: #ffffff;
+  background-color: #0a0a0a;
+  border-radius: 6px;
+  width: fit-content;
+  padding-inline: 8px;
+}
+
+/* flex flex-col justify-between gap-5 border-b-6 border-x-slate-950 */
+.card-service {
+  border-width: 1px;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.25rem;
+  border-bottom-width: 8px;
+  border-inline-color: oklch(0.129 0.042 264.695);
+}
+
+.card-gray {
+  background-color: #f3f3f3;
+}
+
+.card-black {
+  background-color: #191a23;
+}
+
+.card-green {
+  background-color: #b9ff66;
 }

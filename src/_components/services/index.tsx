@@ -11,9 +11,7 @@ export function Service() {
   return (
     <section className="container mx-auto p-4">
       <div className="text-center flex flex-col items-center gap-5 lg:flex-row lg:gap-10 lg:text-start">
-        <h1 className="bg-[#B9FF66] rounded-sm w-fit text-2xl font-semibold px-2 lg:text-4xl">
-          Services
-        </h1>
+        <h1 className="title marked-green">Services</h1>
         <p className="text-gray-600 text-[11px] lg:text-[16px]">
           At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:
@@ -22,14 +20,10 @@ export function Service() {
 
       <div className="grid grid-cols-1 gap-5 mt-5 lg:grid-cols-2 lg:gap-10">
         {/* card1 */}
-        <div className="bg-[#F3F3F3] border-1 rounded-4xl p-10 flex flex-col justify-between gap-5 border-b-6 border-x-slate-950">
+        <div className="card-service card-gray">
           <div>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#B9FF66] w-fit px-2">
-              Search engine
-            </h1>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#B9FF66] w-fit px-2">
-              optimization
-            </h1>
+            <h1 className="title-small marked-green">Search engine</h1>
+            <h1 className="title-small marked-green">optimization</h1>
           </div>
           <div className="flex justify-between items-end">
             <div className="flex gap-2 items-center">
@@ -51,14 +45,10 @@ export function Service() {
           </div>
         </div>
         {/* card2 */}
-        <div className="bg-[#B9FF66] border-1 rounded-4xl p-10 flex flex-col justify-between gap-5 border-b-6 border-x-slate-950">
+        <div className="card-service card-green">
           <div>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#F3F3F3] w-fit px-2">
-              Pay-per-click
-            </h1>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#F3F3F3] w-fit px-2">
-              advertising
-            </h1>
+            <h1 className="title-small marked-withe">Pay-per-click</h1>
+            <h1 className="title-small marked-withe">advertising</h1>
           </div>
           <div className="flex justify-between items-end">
             <div className="flex gap-2 items-center">
@@ -80,14 +70,10 @@ export function Service() {
           </div>
         </div>
         {/* card3 */}
-        <div className="bg-[#191a23] border-1 rounded-4xl p-10 flex flex-col justify-between gap-5 border-b-6 border-x-slate-950">
+        <div className="card-service card-black">
           <div>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#F3F3F3] w-fit px-2">
-              Social Media
-            </h1>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#F3F3F3] w-fit px-2">
-              Marketing
-            </h1>
+            <h1 className="title-small marked-withe">Social Media</h1>
+            <h1 className="title-small marked-withe">Marketing</h1>
           </div>
           <div className="flex justify-between items-end">
             <div className="flex gap-2 items-center">
@@ -109,14 +95,10 @@ export function Service() {
           </div>
         </div>
         {/* card4 */}
-        <div className="bg-[#F3F3F3] border-1 rounded-4xl p-10 flex flex-col justify-between gap-5 border-b-6 border-x-slate-950">
+        <div className="card-service card-gray">
           <div>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#B9FF66] w-fit px-2">
-              Email
-            </h1>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#B9FF66] w-fit px-2">
-              Marketing
-            </h1>
+            <h1 className="title-small marked-green">Email</h1>
+            <h1 className="title-small marked-green">Marketing</h1>
           </div>
           <div className="flex justify-between items-end">
             <div className="flex gap-2 items-center">
@@ -138,14 +120,10 @@ export function Service() {
           </div>
         </div>
         {/* card5 */}
-        <div className="bg-[#B9FF66] border-1 rounded-4xl p-10 flex flex-col justify-between gap-5 border-b-6 border-x-slate-950">
+        <div className="card-service card-green">
           <div>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#F3F3F3] w-fit px-2">
-              Content
-            </h1>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#F3F3F3] w-fit px-2">
-              Creation
-            </h1>
+            <h1 className="title-small marked-withe">Content</h1>
+            <h1 className="title-small marked-withe">Creation</h1>
           </div>
           <div className="flex justify-between items-end">
             <div className="flex gap-2 items-center">
@@ -167,14 +145,10 @@ export function Service() {
           </div>
         </div>
         {/* card6 */}
-        <div className="bg-[#191a23] border-1 rounded-4xl p-10 flex flex-col justify-between gap-5 border-b-6 border-x-slate-950">
+        <div className="card-service card-black">
           <div>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#B9FF66] w-fit px-2">
-              Analytics and
-            </h1>
-            <h1 className="font-medium text-2xl rounded-sm bg-[#B9FF66] w-fit px-2">
-              Tracking
-            </h1>
+            <h1 className="title-small marked-green">Analytics and</h1>
+            <h1 className="title-small marked-green">Tracking</h1>
           </div>
           <div className="flex justify-between items-end">
             <div className="flex gap-2 items-center">
